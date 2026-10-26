@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Scraper cache (hundreds of MB; rebuilt on the next run)
+cache.json
+cache.json.tmp
+
+# Generated outputs (contain scraped contact details)
+programs*.csv
+programs*.xlsx
+
+# Logs
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
